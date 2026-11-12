@@ -5,6 +5,8 @@ Challenge: *Create Health Monitoring Software for Astronauts on Space Missions*
 
 > **"Nothing is diagnosed. Everything is evidenced."**
 
+###  [Live demo: astrocare.oceansensebd.com](https://astrocare.oceansensebd.com/#home)
+
 AstroCare is an evidence-first crew health console. It brings space weather, radiation dose, blood radiation response, immune and metabolic lab panels, microbiome, telomere evidence, daily vital signs and self-reports into one place. It compares every astronaut with **their own normal**, not a population average.
 
 Only two parts are true machine-learning models, because only they have enough suitable NASA data to train and validate honestly. **M1** forecasts solar particle storms and **M3** reads radiation dose from blood gene expression. Everything else measures change against each person's own pre-flight baseline with fixed, transparent rules, estimates dose from physics, or shows published context. Every value on screen carries its source, its rule and a safe, non-diagnostic next step.
@@ -104,7 +106,9 @@ A domain gets a machine-learning model only when suitable human (or human-cell) 
 
 ## Quick start
 
-**Requirements:** Python 3.9 or newer. Nothing else is required.
+**Try it online:** https://astrocare.oceansensebd.com/#home (no installation needed)
+
+**Run it locally.** Requirements: Python 3.9 or newer. Nothing else is required.
 
 ```bash
 # 1. Open the astrocare folder in a terminal (or in VS Code: File → Open Folder)
